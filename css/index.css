@@ -1,0 +1,40 @@
+.row {
+    padding: 1em;
+    border: 2px solid grey;
+    margin: 1em;
+}
+
+.col1 {
+    border: 1px dashed;
+
+}
+
+.col2 {
+    border: 2px double;
+}
+
+.col3 {
+    border: 3px ridge;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.staticposition {
+    position: static;
+    background: yellow;
+    left: 30px;
+}
+
+.relativeposition {
+    position: relative;
+    background-color: antiquewhite;
+    left: 30px;
+}
+
+.fixedposition {
+    position: fixed;
+    left: 30px;
+}
